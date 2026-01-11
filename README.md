@@ -1,16 +1,31 @@
-# React + Vite
+# 30 Günlük Spor Takip Uygulaması
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, spor yapmayı alışkanlık haline getirmek isteyenler için geliştirilmiş **30 günlük kişisel spor takip uygulamasıdır**.  
+Kullanıcılar günlük spor aktivitelerini kaydedebilir, motivasyon cümleleriyle desteklenir ve ilerlemelerini takip edebilir.
 
-Currently, two official plugins are available:
+##  Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 30 günlük otomatik spor planı
+- Günlük spor tamamlama (toggle)
+- Günlük motivasyon cümlesi (her gün yenilenir)
+- Spor türü, süre ve enerji seviyesi girişi
+   Local storage / AsyncStorage ile veri kalıcılığı
+-  Mobil uyumlu modern arayüz
+-  React mimarisi
 
-## React Compiler
+## Kullanılan Teknolojiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 
+- JavaScript
+- AsyncStorage
+- Functional Components & Hooks
 
-## Expanding the ESLint configuration
+## Kurulum
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Projeyi lokalinde çalıştırmak için:
+
+```bash
+git clone https://github.com/kullaniciadi/proje-adi.git
+cd proje-adi
+npm install
+npm start
